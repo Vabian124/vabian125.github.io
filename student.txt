@@ -1,0 +1,5 @@
+o Student name: Fabian Stappers
+o Student number: 721177
+o Student class: INF1C
+o GitHub Repository: https://github.com/Vabian124/WebMarkupOSW.github.io
+o GitHub Pages URL: Vabian124.github.io

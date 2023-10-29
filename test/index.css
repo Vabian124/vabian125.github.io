@@ -1,0 +1,135 @@
+body {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  background: #f1faee;
+  h1 {
+    font-size: 48px;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: radial-gradient(
+    52.69% 12.46% at 93.89% 6.16%,
+    #1d3557 0%,
+    #457b9d 100%
+  );
+
+  box-shadow: 0em 0.25em 0.25em rgba(0, 0, 0, 0.25);
+  border: 0.1875em black solid;
+
+  img {
+    aspect-ratio: 1/1;
+    margin-left: 1fr;
+  }
+
+  nav {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 80vw;
+    a {
+      color: white;
+      font-size: 2em;
+      font-family: Inter;
+      font-weight: 400;
+      line-height: 1.125em;
+      text-decoration: none;
+    }
+    ul {
+      display: inline-flex;
+      list-style-type: none;
+      padding: 0;
+      li {
+        margin-left: 5%;
+      }
+    }
+  }
+}
+.someImage {
+    width: 500px;
+    height: 750px;
+    object-fit: cover;
+    object-position: center center; /* You can adjust this as needed to control the crop area */
+  }
+  
+  p{
+    font-size: 24px;
+  }
+.parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(44, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.intro{
+    background: linear-gradient(#E63946, #E6394600);
+}
+
+.header {
+  grid-area: 1 / 1 / 2 / 13;
+}
+.headerBanner {
+  grid-area: 2 / 1 / 7 / 13;
+  max-width: 100%;
+  height: auto;
+  max-height: 750px;
+  overflow: hidden;
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center; /* You can adjust this as needed to control the crop area */
+  }
+}
+.intro{
+    grid-area: 7 / 2 / 9 / 12;
+  h1, h2 {
+    color: white;
+  }
+
+}
+.TextLeft{
+    float:left;
+    width:50%
+  }
+.ImgRight{
+    float:right;
+    width:50%
+  }
+  .TextRight{
+    float:right;
+    width:50%
+  }
+.ImgLeft{
+    float:left;
+    width:50%
+  }
+.art1 {
+  grid-area: 9 / 2 / 15 / 12;
+}
+/* .div5 {
+    grid-area: 9 / 2 / 15 / 6;
+} */
+.art2 {
+  grid-area: 15 / 2 / 21 / 12;
+}
+/* .div7 {
+  grid-area: 15 / 8 / 21 / 12;
+} */
+.art3 {
+  grid-area: 21 / 2 / 27 / 12;
+}
+/* .div9 {
+  grid-area: 21 / 7 / 27 / 12;
+} */
+.div10 {
+  grid-area: 27 / 2 / 32 / 12;
+}
+.div11 {
+  grid-area: 32 / 1 / 44 / 13;
+}
